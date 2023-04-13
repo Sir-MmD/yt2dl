@@ -19,4 +19,4 @@ Open `yt2dl_en.py` OR `yt2dl_fa.py` and replace your server IP or Domain with `I
 
 `./yt2dl_start.sh`
 
-# Credit: [ChatGPT](https://chat.openai.com"ChatGPT")
+# Credit: [ChatGPT-4](https://chat.openai.com"ChatGPT-4")
