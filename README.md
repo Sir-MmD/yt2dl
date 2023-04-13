@@ -3,7 +3,7 @@ Youtube video and music leecher bot for Telegram
 ## Install Software Dependencies:
 `$ sudo apt update && apt install python3 python3-pip apache2 tmux`
 ## Install Required libraries:
-`$ pip install re os json time uuid string random string subprocess telebot yt-dlp `
+`$ pip install os json time uuid string random string subprocess telebot yt-dlp `
 ## Create a bot
 Use @BotFather to create and get a Token. open `yt2dl_en.py` OR `yt2dl_fa.py` and replace "API_TOKEN" on line 16 with your own API Token
 ## Sponsor Channel
