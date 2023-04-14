@@ -192,7 +192,7 @@ def handle_message(message):
         bot.reply_to(message, f"لطفا {remaining_time} ثانیه دیگر صبر کنید ⏳")
         return
     last_message_time[chat_id] = current_time
-    bot.send_message(chat_id, "Processing the link ⏳")
+    bot.send_message(chat_id, "درحال بررسی لینک ⏳")
     formats = get_youtube_formats(video_url)
     if not formats:
         bot.reply_to(message, "لینک ارسال شده اشتباه است❌ لطفا لینک صحیح مربوط به یوتیوب را ارسال کنید")
@@ -211,7 +211,7 @@ def handle_message(message):
     without_audio_button = types.InlineKeyboardButton(text="ویدیو بدون صدا 🎬", callback_data=f"without_audio|{url_id}")
     audio_320kbps_button = types.InlineKeyboardButton(text="صدا با کیفیت 320kbps 🎧", callback_data=f"audio_320kbps|{url_id}")
     markup.add(with_audio_button, without_audio_button, audio_320kbps_button)
-    bot.send_message(chat_id, "Choose the audio option:", reply_markup=markup)
+    bot.send_message(chat_id, "لطفا یک گزینه را انتخاب کنید: ", reply_markup=markup)
 
 def show_formats(chat_id, message_id, url_id, formats):
     markup = types.InlineKeyboardMarkup(row_width=2)
