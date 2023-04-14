@@ -14,12 +14,10 @@ Leeched files that are bigger than 50MB can not be sent over telegram (Telegram'
 
 Open `yt2dl_en.py` OR `yt2dl_fa.py` and replace your server IP or Domain with `IP_OR_DOMAIN` on line 20
 ## Launch
-`chmod +x yt2dl_start.sh`
+`$ chmod +x yt2dl_start.sh`
 
-`tmux`
+`$ tmux`
 
-`./yt2dl_start.sh`
+`$ ./yt2dl_start.sh`
 
 This file (`yt2dl_start.sh`) will start the English version of the bot by default. You can change it to Farsi on line 4 and 7. This script assumes that the yt2dl folder is located at `/root/`. You can change it on line 6
-
-# Credit: [ChatGPT-4](https://chat.openai.com)
