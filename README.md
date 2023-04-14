@@ -20,4 +20,6 @@ Open `yt2dl_en.py` OR `yt2dl_fa.py` and replace your server IP or Domain with `I
 
 `./yt2dl_start.sh`
 
+This file (`yt2dl_start.sh`) will start the English version of the bot by default. You can change it to Farsi on line 4 and 7. This script assumes that the yt2dl folder is located at `/root/`. You can change it on line 6
+
 # Credit: [ChatGPT-4](https://chat.openai.com)
