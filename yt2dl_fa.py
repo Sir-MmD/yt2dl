@@ -11,7 +11,7 @@ import telebot
 import subprocess
 from telebot import types
 import yt_dlp as youtube_dl
-from youtube_dl.utils import sanitize_filename
+from yt_dlp.utils import sanitize_filename
 
 API_TOKEN = 'API_TOKEN'
 bot = telebot.TeleBot(API_TOKEN)
